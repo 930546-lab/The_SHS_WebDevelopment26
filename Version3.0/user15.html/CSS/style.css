@@ -28,14 +28,9 @@ body {
 }
 
 ol {
-    background-color: lightgoldenrodyellow;
-    padding: 15px;
-    border-radius: 10px;
+    list-style-image: url("sqpurple.gif");
 }
 
 ul {
-    background-color: lightblue;
-    padding: 15px;
-    border-radius: 10px;
-    list-style-type: square;
+    list-style-image: url("sqpurple.gif");
 }
