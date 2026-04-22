@@ -13,14 +13,26 @@
 
 .button1 {
 	border-radius: 8px;
+}button:hover {
+  color: blue;
+background-color: rgb(234, 55, 11);
 }
 
 .button2 {
 	border-radius: 30%;
+hover {
+  color: red;
+background-color: turquoise;
+
+
 }
+
 
 .red {
 	background-color: #ff0000;
+hover {
+  color: white;
+  background-color: #ffcccc;
 }
 
 td{
