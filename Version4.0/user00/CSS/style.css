@@ -10,6 +10,11 @@
 	margin: 4px 2px;
 	cursor: pointer;
 }
+.button:active {
+	background-color: rgb(133, 133, 43);
+  	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
 
 .button1 {
 	border-radius: 8px;
