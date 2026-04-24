@@ -40,6 +40,21 @@ h1, h2, h3, h4, h5, h6{
 a:hover {
   color: red;
   text-decoration: underline;
+  /* 1. Shrinks the button when you actually click it */
+button:active {
+  transform: scale(0.95);
+}
+
+/* 2. Changes the bullet emoji when you click the list item */
+li:active::marker {
+  content: "🔥 ";
+}
+
+/* 3. Changes the border color of a button when you click it (Focus) */
+button:focus {
+  border: 3px solid white;
+}
+
 }
 .button:hover {
   color: red !important; /* This forces the text to turn red */
@@ -70,7 +85,6 @@ a:hover {
 #footerTable {
   background-color: lightgray;
 }
-
 
 * {
   box-sizing: border-box;
