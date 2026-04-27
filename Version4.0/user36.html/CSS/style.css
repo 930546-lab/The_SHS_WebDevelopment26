@@ -1,3 +1,5 @@
+	
+@import url(rainbow.css);
 .button {
 	background-color: #4CAF50;
 	border: none;
@@ -52,4 +54,9 @@ h1, h2, h3, h4, h5, h6{
 *{
     text-align:middle;
     border: 2px solid rgb(255, 255, 255);
+}#knowledge > li::marker {
+  color: red;
+  content: "😜 ";
+} .btn:active {
+    background-color: red;
 }
