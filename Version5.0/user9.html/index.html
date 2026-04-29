@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Version 5.0
-    Name:
-    Date Completed:
+    Name: Bennett Gordon
+    Date Completed: 4/29/26
 -->
 
 <head>
@@ -15,6 +15,12 @@
     <meta name="description" content="SHS WebDev Version 5.0 - Index Bootstrap Examples">
 
     <!-- CSS -->
+    <style>
+        .table-striped > tbody > tr:nth-of-type(odd) > * {
+            --bs-table-color-type: var(--bs-table-striped-color);
+            --bs-table-bg-type: rgba(255, 242, 0, 0.93)
+        }
+    </style>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.css">
     <!-- Font Awesome -->
@@ -66,7 +72,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Link
+                            Link
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -157,10 +163,25 @@
 
             <!---------List-Group---------------------------------------------->
             <div class="container mt-3" name="list-group">
+                <div class="list-group">
+    <a href="https://drive.google.com/drive/home" class="list-group-item list-group-item-action active">
+        <i class="fa-solid fa-cloud"></i> Home
+    </a>
+    <a href="https://images.google.com/" class="list-group-item list-group-item-action">
+        <i class="fa-brands fa-google"></i> Pictures <span class="badge bg-secondary badge-pill badge-primary pull-right active">145</span>
+    </a>
+    <a href="https://www.spotify.com/" target="_blank" class="list-group-item list-group-item-action">
+        <i class="fa-solid fa-headphones"></i> Music <span class="badge bg-secondary badge-pill badge-primary pull-right active">50</span>
+    </a>
+    <a href="https://www.youtube.com/" class="list-group-item list-group-item-action">
+        <i class="fa-brands fa-youtube"></i> Videos <span class="badge bg-secondary badge-pill badge-primary pull-right">8</span>
+    </a>
+</div>
             </div>
 
             <!---------Form Button--------------------------------------------->
             <div class="container mt-3 vstack" name="form-button">
+                <a href="form.html" class="btn btn-success btn-lg" role="button" aria-pressed="true">Form Page</a>
             </div>
         </main>
 
