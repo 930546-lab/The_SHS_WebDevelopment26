@@ -23,6 +23,20 @@
 	background-color: #ff0000;
 }
 
+.bold {
+	border: 20px ridge;
+	box-shadow: 24px 24px 7px black;
+
+}
+
+.soft {
+	border-radius: 20%;
+}
+
+.leftalign {
+	text-align: left;
+}
+
 td{
 	padding:20px;
 }
