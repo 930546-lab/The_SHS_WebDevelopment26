@@ -47,6 +47,11 @@
         .demo-content.bg-alt {
             background: #abb1b8;
         }
+
+        .table-striped > tbody > tr:nth-of-type(odd) > * {
+            --bs-table-color-type: var(--bs-table-striped-color);
+            --bs-table-bg-type: rgba(255, 0, 0, 0.3)
+        }
     </style>
 
     <body>
@@ -69,12 +74,16 @@
                               Link
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="https://shakopee.instructure.com/" target="_blank">Link</a></li>
+                                <li><a class="dropdown-item" href="https://shakopeemn.infinitecampus.org/campus/portal/students/shakopee.jsp" target="_blank">Similar link</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Divided link</a></li>
+
+                                <!--Addition-->
+                                <li> <hr class="dropdown-divider"> </li>
+                                <li> <p>Info</p> </li>    
                             </ul>
                         </li>
                         <li class="nav-item">
