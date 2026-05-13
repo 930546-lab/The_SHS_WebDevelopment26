@@ -92,4 +92,4 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowDown') move('down');
 });
 
-initBoard();
+initBoard(); 
